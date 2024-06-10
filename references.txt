@@ -1,0 +1,16 @@
+This is a list of resources used to complete the tasks
+Graphene:
+System - https://next-gen.materialsproject.org/materials/mp-48
+Research Paper - https://repository.gatech.edu/server/api/core/bitstreams/f3038e8a-cf5a-4145-9084-0c20d05aaefa/content
+
+Silicene:
+System - https://next-gen.materialsproject.org/materials/mp-165
+
+hexagonal Boron Nitride:
+System - https://next-gen.materialsproject.org/materials/mp-984
+
+Silicon Carbide:
+System - https://next-gen.materialsproject.org/materials/mp-7140
+
+Phosphorene:
+System - https://next-gen.materialsproject.org/materials/mp-1008559
