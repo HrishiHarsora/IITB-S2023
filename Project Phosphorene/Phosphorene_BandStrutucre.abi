@@ -1,0 +1,53 @@
+
+ndtset 2
+
+#Definition of the unit cell
+acell 1 1 1         
+rprim  2.84 4.92 0.00
+      -2.84 4.92 0.00
+       0.00 0.00 30.00
+
+#Definition of the atom types
+ntypat 1          
+znucl 15          
+
+ pseudos "/home/hrishi/abinit-10.0.5/Pseudopotentials/P.psp8"  
+#Definition of the atoms
+natom 2           
+typat 1 1         
+xred              
+   0.33 0.33 0.50
+   0.67 0.67 0.50
+
+
+ecut 50         
+
+#Definition of the SCF procedure
+nstep 50          
+diemac 10.0       
+
+#Dataset 1 : usual self-consistent calculation
+kptopt1 1          
+nshiftk1 4
+shiftk1  0.5 0.5 0.5  
+         0.5 0.0 0.0
+         0.0 0.5 0.0
+         0.0 0.0 0.5
+ngkpt1  4 4 4
+prtden1  1         
+toldfe1  1.0d-8    
+
+#Dataset 2 : the band structure
+iscf2    -2
+getden2  -1
+kptopt2  -3 
+nband2   8
+ndivsm2   10   
+kptbounds2  0.5  0.0  0.0 
+            0.0  0.0  0.0 
+            0.0  0.5  0.5 
+            1.0  1.0  1.0 
+tolwfr2  1.0d-12
+enunit2  1            
+
+
