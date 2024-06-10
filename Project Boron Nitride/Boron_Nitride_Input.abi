@@ -1,0 +1,52 @@
+# Hexagonal Boron Nitride primitive cell
+acell 1 1 1   # Lattice parameters 
+rprim  2.17 3.77 0.00
+      -2.17 3.77 0.00
+       0.00 0.00 30.00
+
+ntypat 2                  # two type of atom
+znucl  5 7                # Boron and Nitrogen atoms
+
+natom 4                   # Four atoms in the unit cell
+typat 1 2 1 2                
+xred 
+ 0.33 0.67 0.25
+ 0.67 0.33 0.25
+ 0.67 0.33 0.75
+ 0.33 0.67 0.75
+
+  
+  pseudos "/home/hrishi/abinit-10.0.5/Pseudopotentials/B.psp8 , /home/hrishi/abinit-10.0.5/Pseudopotentials/N.psp8"  # Path to your pseudopotential file
+
+
+# Self-Consistent Field calculation for cell
+
+ndtset 1
+
+# Dataset 1 (SCF calculation)
+kptopt1 1               # Automatic k-point grid generation
+ngkpt1 4 4 1            # 4x4x1 k-point grid
+nshiftk1 1
+shiftk1 0.0 0.0 0.5
+
+optcell 0                # Do not optimize cell parameters
+ionmov 2                 # BFGS algorithm for atomic positions
+nstep 100                # Maximum number of steps
+
+
+ecut1 75                # Kinetic energy cutoff (in Hartree)
+nband1 8                # Number of bands
+occopt1 3               # Occupation: Fermi-Dirac
+tsmear1 0.01            # Smearing temperature (in Hartree)
+toldfe1 1.0d-8          # Convergence criterion for total energy
+
+prtden1 1               # Print the density
+prtwf1 1                # Print the wavefunctions
+
+# Common parameters
+istwfk *1
+diemac 10.0
+diemix 0.7
+
+
+
