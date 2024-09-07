@@ -9,9 +9,13 @@ The considerably smaller support community of Abinit codes wasn't able to answer
 The following Links to my work on Materials Square has the input and corresponding output files for the calculations, including the Band Structure and DOS Plots:
 
 [Graphene](https://www.materialssquare.com/work/43404)
+
 [Silicon Carbide)()
+
 [Silicene](https://www.materialssquare.com/work/43406)
+
 [Phosphorene](https://www.materialssquare.com/work/43421)
+
 [Boron Nitride]()
  
 
