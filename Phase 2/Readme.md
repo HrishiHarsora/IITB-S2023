@@ -10,7 +10,7 @@ The following Links to my work on Materials Square has the input and correspondi
 
 [Graphene](https://www.materialssquare.com/work/43404)
 
-[Silicon Carbide)()
+[Silicon Carbide]()
 
 [Silicene](https://www.materialssquare.com/work/43406)
 
