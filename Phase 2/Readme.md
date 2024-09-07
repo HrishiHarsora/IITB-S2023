@@ -10,12 +10,12 @@ The following Links to my work on Materials Square has the input and correspondi
 
 [Graphene](https://www.materialssquare.com/work/43404)
 
-[Silicon Carbide]()
+[Silicon Carbide](https://www.materialssquare.com/work/43410)
 
 [Silicene](https://www.materialssquare.com/work/43406)
 
 [Phosphorene](https://www.materialssquare.com/work/43421)
 
-[Boron Nitride]()
+[Boron Nitride](https://www.materialssquare.com/work/43413)
  
 
