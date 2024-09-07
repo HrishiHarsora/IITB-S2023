@@ -1,0 +1,1 @@
+### This repository is a compilation of my learnings in the area of computational materials science as a summer Intern under Prof. Alok Shukla of the department of Physics at the Indian Institute of Technology, Bombay(IITB)
